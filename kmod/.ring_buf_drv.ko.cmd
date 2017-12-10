@@ -1,1 +1,0 @@
-cmd_/home/jjh/src/mmap_ring/kmod/ring_buf_drv.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/jjh/src/mmap_ring/kmod/ring_buf_drv.ko /home/jjh/src/mmap_ring/kmod/ring_buf_drv.o /home/jjh/src/mmap_ring/kmod/ring_buf_drv.mod.o ;  true

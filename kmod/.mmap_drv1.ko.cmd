@@ -1,1 +1,0 @@
-cmd_/home/jjh/src/mmap_ring/kmod/mmap_drv1.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/jjh/src/mmap_ring/kmod/mmap_drv1.ko /home/jjh/src/mmap_ring/kmod/mmap_drv1.o /home/jjh/src/mmap_ring/kmod/mmap_drv1.mod.o ;  true
