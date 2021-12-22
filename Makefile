@@ -8,7 +8,7 @@ OUTS=mmap_ring_buf
 
 all: tag $(OUTS)
 	#sudo ./$(OUTS) /proc/lkmc_mmap
-	sshpass -proot123 scp -o StrictHostKeyChecking=no $(OUTS) root@10.1.1.3:~/
+	#sshpass -proot123 scp -o StrictHostKeyChecking=no $(OUTS) root@10.1.1.3:~/
 
 tag:
 	ctags -R
